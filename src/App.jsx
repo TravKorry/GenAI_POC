@@ -680,7 +680,7 @@ export default function AppianServiceTracker() {
                 background: T.altRow,
                 flexWrap: "wrap",
               }}>
-                <div style={{ position: "relative", flex: 1, minWidth: 150, maxWidth: 300 }}>
+                <div style={{ position: "relative", flex: 1, minWidth: 200}}>
                   <span style={{ position: "absolute", left: 10, top: "50%", transform: "translateY(-50%)", fontSize: "14px", color: T.textMuted }}>🔍</span>
                   <input
                     type="text"
