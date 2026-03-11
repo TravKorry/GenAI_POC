@@ -680,7 +680,7 @@ export default function AppianServiceTracker() {
                 background: T.altRow,
                 flexWrap: "wrap",
               }}>
-                <div style={{ position: "relative", flex: 0.5, minWidth: 200 }}>
+                <div style={{ position: "relative", flex: 1, minWidth: 200 }}>
                   <span style={{ position: "absolute", left: 10, top: "50%", transform: "translateY(-50%)", fontSize: "14px", color: T.textMuted }}>🔍</span>
                   <input
                     type="text"
@@ -688,7 +688,7 @@ export default function AppianServiceTracker() {
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                     style={{
-                      width: "100%", padding: "7px 12px 7px 32px", border: `1px solid ${T.border}`,
+                      width: "100%", boxSizing: "border-box", padding: "7px 12px 7px 32px", border: `1px solid ${T.border}`,
                       borderRadius: "4px", fontSize: "13px", outline: "none", fontFamily: "inherit",
                       background: T.inputBg, color: T.textPrimary,
                     }}
